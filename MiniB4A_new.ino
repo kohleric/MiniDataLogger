@@ -149,5 +149,5 @@ void loop() {
         Serial.println("❌ Erreur d'écriture sur la carte SD !");
     }
 
-    delay(1000); // Attente 1 seconde avant la prochaine mesure
+    delay(100); // Attente 1 seconde avant la prochaine mesure
 }
